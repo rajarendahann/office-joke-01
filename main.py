@@ -1,6 +1,6 @@
 # Output office joke entry
 import os
-joke = "HR said dress for the job you want, so I wore a suit. Now security escorts me to the job I want."
+joke = "HR asked why I keep talking to the printer. I said one of us has to be out of toner."
 out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 if not os.path.exists(out_dir):
     out_dir = "."
